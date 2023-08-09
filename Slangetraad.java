@@ -1,7 +1,7 @@
 public class Slangetraad implements Runnable{
     Slange slange;
     Kontroll kontroll;
-    public int sov =500;
+    public int sov =250;
     Boolean spill = false;
 
     public Slangetraad(Slange slange, Kontroll kontroll){
